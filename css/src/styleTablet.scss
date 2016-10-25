@@ -1,0 +1,208 @@
+
+@media screen and (min-width: 768px) { 
+	.container{
+		width: 768px;
+		height: 702px;
+	}
+	.sign{
+		float: right;
+		display: inline-block;
+		text-align: right;
+		margin-top: 19px;
+		margin-bottom: 0;
+		margin-right: 3%;
+	}
+	header{
+		h3{
+			float: left;
+			display: inline-block;
+			margin-left: 6%;
+    		margin-top: 29px;
+    		font-weight: bold;
+    		letter-spacing: 3px;
+		}
+		h1{
+			font-size: 52px;
+			margin-top: 198px;
+		}
+		p{
+			font-size: 24px;
+			margin-top: 28px;
+		}
+	}
+	.headerFind{
+		margin-top: -7px;
+		padding-left: 26px;
+		padding-right: 26px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.wrapper--main .container--main{
+		height: 532px;
+		h2{
+			margin-top: 94px;
+		}
+		div{
+			float: left;
+			margin-top: 10px;
+			margin-right: 2%;
+    		width: 32%;
+		}
+		div:nth-child(4){
+			margin-right: 0px;
+		}
+			
+	}
+	#slider-text{
+		position: absolute;
+		height: 400px;
+		width: 100%;
+		margin-top: 0px;
+		box-shadow: inset 0px -7px 210px black;
+		border-radius: 5px;
+    	div{
+    		width: 70px;	
+    		height: 20px;
+			border-radius: 10px;
+			@include fontMontserrat(#fff);
+			font-size: 12px;
+			line-height: 1.9em;
+			margin-top: 230px;
+    		margin-left: 21px;
+    	}
+    	h3{
+    		@include fontMontserrat(#fff);
+			font-size: 24px;
+			font-weight: bold;
+			margin-top: 270px;
+    		text-align: left;
+    		margin-left: 10px;
+    	}
+    	p{
+    		color: #cbcbcb;
+			@include fontRoboto(#cbcbcb);
+			font-size: 14px;
+			padding: 0 18px;
+    	}
+	}
+	.container--main .bx-wrapper .bx-viewport{
+		height: 400px !important;
+		left: 3px;
+	}
+	.container--blog{
+		h2{
+			margin-bottom: 20px;
+			color: #333;
+			font-family: "Arial", sans-serif;
+			font-size: 22px;
+			font-weight: bold;
+		}
+		.find-partners{
+			display: block;
+			padding: 9px 0;
+    		width: 24%;
+    		margin: 54px auto;
+		}
+	}
+	.blog{
+		width: 33%;
+	    display: inline-block;
+	    vertical-align: top;
+	}
+	.wrapper .container--bar{
+		padding: 48px 10px 40px;
+		height: 1431px;
+		h2{ 
+			@include fontMontserrat(#333);
+			font-size: 22px;
+			font-weight: bold;
+		}
+		h2:first-child{
+			height: 40px;
+			margin-bottom: 20px;
+		}
+		.ideas{
+			margin-top: 75px;
+		}
+		p{
+			margin-top: 33px;
+    		margin-bottom: 24px;
+		}
+		#find-picture{
+			width: 28%;
+    		margin-left: 5%;
+		}
+
+
+		input[type="submit"]{
+    		padding: 13px 28px;
+    		margin-right: 5%;
+		}
+	}
+	#container{
+	width: 768px;
+	.item{
+		height: 310px; 
+		width: 236px;
+		margin-bottom: 20px;
+		border-radius: 5px;
+		overflow: hidden;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	
+	.item:nth-child(5){
+		width: 492px;
+	}
+	.item:nth-child(6){
+		width: 492px;
+	}
+	}
+	.bar{
+		height: 130px;
+	}
+	.wrapper--footer{
+		background: none;
+	}
+	.wrapper--footer .container--footer{
+		height: 100px;
+		position: relative;
+		.company{
+			float: left;
+			margin-left: 12%;
+			margin-top: 6px;
+		}
+		h4{
+			float: left;
+			margin-left: 5%;
+			margin-top: 5px;
+		}
+		.footer-logo{
+			float: right;
+			margin-right: 5%;
+    		margin-top: 8px;
+		}
+		.partners{
+			display: inline-block;
+    		float: left;
+    		margin-left: 14%;
+    		margin-top: 6px;
+		}
+	}
+	.footer-menu{
+		position: absolute;
+		display: inline-block;
+		top: 50px;
+    	left: 35%;
+    	text-align: left;
+	li{	
+		display: block;
+		margin-right: 3px;
+		margin-top: 5px;
+		margin-bottom:5px;
+	}
+} 
+	
+}

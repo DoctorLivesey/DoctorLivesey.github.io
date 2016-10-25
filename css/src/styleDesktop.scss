@@ -1,0 +1,116 @@
+@media screen and (min-width: 940px){
+	.container{
+		width: 940px;
+		height: 702px;
+	}
+	header{
+		h3{
+			margin-left: 0;
+		}
+		.sign{
+			margin-right: -3%;
+		}
+	}
+	.bxslider{
+		img{
+			height: auto;
+			border-radius: 5px;
+			
+		}
+	}
+	#slider-text{
+		position: absolute;
+		height: 400px;
+		width: 100%;
+		margin-top: 0px;
+		box-shadow: inset 0px -7px 210px black;
+		border-radius: 5px;
+    	div{
+    		width: 70px;	
+    		height: 20px;
+			border-radius: 10px;
+			@include fontMontserrat(#fff);
+			font-size: 12px;
+			line-height: 1.9em;
+			margin-top: 230px;
+    		margin-left: 21px;
+    	}
+    	h3{
+    		@include fontMontserrat(#fff);
+			font-size: 24px;
+			font-weight: bold;
+			margin-top: 270px;
+    		text-align: left;
+    		margin-left: 20px;
+    	}
+    	p{
+    		color: #cbcbcb;
+			@include fontRoboto(#cbcbcb);
+			font-size: 14px;
+			padding: 0 18px;
+    	}
+	}
+	.blog{
+		width: 24%;
+	}
+	.container--blog{
+
+		.find-partners{
+			width: 20%;
+    		margin: 25px auto;
+		}
+	}
+	.wrapper--main .container--main{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.wrapper--main .container--blog{
+		height: 442px;
+		
+	}
+	.wrapper .container--bar{
+		input[type=submit]{
+			margin-right: 9%;	
+		}
+		padding-left: 0;
+		padding-right: 0;
+	
+	}
+	#container{
+	width: 940px;
+	.item{
+		height: 310px; 
+		width: 300px;
+	}
+	
+	.item:nth-child(5){
+		width: 620px;
+	}
+	.item:nth-child(6){
+		width: 620px;
+	}
+	}
+	.wrapper--footer .container--footer{
+		h4{
+			margin-left: 1%;
+		}
+		p{
+			margin-left: 11%;
+		}
+		.company{
+			margin-left: 11%;
+		}
+		.partners{
+			margin-left: 10%;
+		}
+		.footer-menu{
+			top: 56px;
+    		left: 26%;
+		}
+		.footer-logo{
+			margin-right: 0%;
+		}
+	}
+
+
+}

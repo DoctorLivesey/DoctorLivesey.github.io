@@ -1,0 +1,9 @@
+
+@mixin fontMontserrat($y){
+	font-family: "Montserrat", "Arial", sans-serif;
+	color: $y;
+}
+@mixin fontRoboto($y){
+	font-family: "Roboto", "Arial", sans-serif;
+	color: $y;
+}
